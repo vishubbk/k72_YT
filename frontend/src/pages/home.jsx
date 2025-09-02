@@ -14,7 +14,7 @@ const Home = () => {
       </div>
       <div className="text-xl text-white ">
         {/* Background Video */}
-        <div className="h-full w-screen bg-blue-500 fixed top-0">
+        <div className="h-full w-screen bg-gray-600 fixed top-0">
           <Video />
         </div>
 

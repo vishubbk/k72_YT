@@ -3,6 +3,7 @@ import ProjectCard from '../components/projects/ProjectCard'
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import Navbar from '../components/Navigation/Navbar';
 const Projects = () => {
   const projects = [
     'https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_640x290-640x290.jpg',
@@ -50,7 +51,13 @@ const Projects = () => {
 
 
   return (
-    <div className='p-4'>
+    <div className="">
+      <div className='absolute top-0'>
+
+      <Navbar/>
+      </div>
+       <div className='p-4'>
+
       <div className='pt-[45vh]'>
         <div className='font-[font2] text-[8.5vw]'>PROJECTS</div>
       </div>
@@ -63,6 +70,8 @@ const Projects = () => {
         ))}
       </div>
     </div>
+    </div>
+   
   )
 }
 
