@@ -10,7 +10,7 @@ const Navbar = () => {
   const {fullScreenNav,setFullScreenNav} = useContext(NavContext)
 
   return (
-    <div className='fixed z-5 flex justify-between w-screen'>
+    <div className='fixed z-50 flex justify-between w-screen'>
       <Link to={'/'}>
         <div className='left mt-6'>
         <svg xmlns="http://www.w3.org/2000/svg" fill='gray' width="107" height="47" viewBox="0 0 103 44">

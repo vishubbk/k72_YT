@@ -56,7 +56,7 @@ const FullScreenNav = () => {
     <div
       id="fullscreenNav"
       ref={navRef}
-      className="h-screen w-full font-[font2] bg-black text-white fixed top-0 left-0 z-50 hidden"
+      className="h-screen w-full font-[font2] bg-black text-white fixed top-0 left-0 z-100 hidden"
     >
       {/* NAVBAR DIV */}
       <div className="w-full">

@@ -52,7 +52,8 @@ const Projects = () => {
 
   return (
     <div className="">
-      <div className='absolute top-0'>
+      {/* navbar div */}
+      <div className='absolute top-0 ml-3'>
 
       <Navbar/>
       </div>
