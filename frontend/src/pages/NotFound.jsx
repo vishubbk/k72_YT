@@ -26,7 +26,7 @@ const NotFound = () => {
 
       {/* Button */}
       <Link
-        to="-1"
+        to="/"
         className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl shadow-lg shadow-purple-500/30 hover:scale-110 transition-transform duration-300"
       >
         Go Back Home

@@ -6,6 +6,7 @@ import Projects from './pages/projects.jsx'
 
 import FullScreenNav from './components/Navigation/FullScreenNav.jsx'
 import NotFound from './pages/NotFound.jsx'
+import Contact from './pages/Contact.jsx'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/FullScreen' element={<FullScreenNav/>}/>
         <Route path='/Agency' element={<Agence/>}/>
         <Route path='/Works' element={<Projects/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
     </div>
