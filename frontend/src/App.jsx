@@ -1,5 +1,5 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { HashRouter   as Router, Routes, Route } from 'react-router-dom';
+
 import Home from './pages/home.jsx'
 import Agence from './pages/agence.jsx'
 import Projects from './pages/projects.jsx'
@@ -12,9 +12,11 @@ import Blogs from './pages/Blogs.jsx'
 
 const App = () => {
   return (
+  <Router>
     <div className='overflow-x-hidden'>
 
       <FullScreenNav/>
+      
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/FullScreen' element={<FullScreenNav/>}/>
@@ -25,6 +27,7 @@ const App = () => {
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
     </div>
+    </Router>
   )
 }
 
