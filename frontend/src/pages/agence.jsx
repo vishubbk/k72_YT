@@ -86,6 +86,7 @@ const Agence = () => {
             trigger: ConvertBlack.current,
             start: "top -=500",
             toggleActions: "play none none reverse",
+
           },
           backgroundColor: "black",
           color: "white",
@@ -98,6 +99,7 @@ const Agence = () => {
             trigger: ConvertBlack.current,
             start: "top -=1200",
             toggleActions: "play none none reverse",
+            
           },
           backgroundColor: "black",
           color: "white",
@@ -118,11 +120,11 @@ const Agence = () => {
         {/* Pinned Image */}
         <div
           ref={imageDivRef}
-          className="object-cover rounded-4xl overflow-hidden absolute 
+          className="object-cover rounded-4xl overflow-hidden absolute
              -top-12 left-[30vw]
-             w-[120px] h-[180px]   
-             sm:w-[200px] sm:h-[280px] 
-             md:w-[250px] md:h-[350px] 
+             w-[120px] h-[180px]
+             sm:w-[200px] sm:h-[280px]
+             md:w-[250px] md:h-[350px]
              lg:w-[184px] lg:h-[246px]"
         >
           <img
@@ -230,7 +232,7 @@ const Agence = () => {
         </div>
       </div>
 
-      
+
     </div>
   );
 };

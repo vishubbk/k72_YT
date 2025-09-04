@@ -7,12 +7,13 @@ import Projects from './pages/projects.jsx'
 import FullScreenNav from './components/Navigation/FullScreenNav.jsx'
 import NotFound from './pages/NotFound.jsx'
 import Contact from './pages/Contact.jsx'
+import Blogs from './pages/Blogs.jsx'
 
 
 const App = () => {
   return (
     <div className='overflow-x-hidden'>
-    
+
       <FullScreenNav/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/Agency' element={<Agence/>}/>
         <Route path='/Works' element={<Projects/>}/>
         <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/Blogs' element={<Blogs/>}/>
         <Route path='/*' element={<NotFound/>}/>
       </Routes>
     </div>
